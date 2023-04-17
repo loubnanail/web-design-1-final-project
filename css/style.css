@@ -1,0 +1,311 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* set color and font to the body */
+
+  body {
+      margin: 0;
+      background: white;
+      font-family: 'Open Sans', sans-serif;
+      color: black;
+  }
+  
+/* set background colour, padding and aligning the text to rows */
+
+  header {
+    background: #0E1215;
+    padding: 1em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+/* image banner on the same background color as the header and scaling image to align with text */
+
+  .banner img{
+    width: 100%;
+    size:1280px;
+    background-color: #0E1215;
+    margin:0;
+    padding: 0 3rem 0 3rem;
+
+  }
+
+/* changing the style and sizing of my logo(name) */
+
+  .logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: left;
+    color:white;
+  }
+  
+
+/* aligning navigation buttons to the left */
+
+  nav {
+    text-align: left;
+  }
+  
+/* removing the styling of the nav */
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+
+/* spacing the nav from each other  */
+  nav li {
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+  
+
+/* setting the color, weight and size to nav */
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight:lighter; 
+  }
+  
+/* aligning the main text to the header */
+  main {
+    padding: 0 3em;
+  }
+  
+
+/* setting all h1 to the ssame font weight and size */
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10rem;
+    margin-bottom: 0;
+  }
+
+
+/* set font side to all h2 */
+  h2{
+    
+    font-size: 40px;
+
+  }
+
+
+/* making sure the image and text are alig beside each other */
+.intro {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+
+/* setting the intro div to 50% width and chaging the font size */
+
+.intro div{
+    width:50%;
+    font-size: 20px;
+
+}
+
+
+/* chaging the image of the intro section to a 50% width */
+.intro img{
+    width: 50%;
+
+  
+}
+
+
+/* center text that in the wrapper class */
+.wrapper{
+    text-align: center;
+}
+
+
+/* putting the text in rows and centering them with 7 rem gaps */
+.skills{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:2rem;
+    gap:3rem;
+    width: 80%;
+    height: auto;
+    margin: auto;
+
+}
+
+
+/* setting color backgrounds to #FAFAFA on the skill set  */
+.skill1{
+  
+    background-color: #FAFAFA;
+    padding: 1rem;
+
+}
+.skill2{
+  
+    background-color: #FAFAFA;
+    padding: 1rem;
+
+}
+.skill3{
+  
+    background-color: #FAFAFA;
+    padding: 1rem;
+
+}
+
+
+/* text is 70% width and flushing it to the left  */
+.skills div {
+    width: 70%;
+    text-align: left;
+    
+}
+
+/* setting the title of section row to center and creating a spacing at the bottom */
+.row h1 {
+
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* putting a box around "learn more" and making sure it is aligned with the skill div */
+.skills a{
+
+    display: inline-block;
+    background-color: #0E1215;
+    padding: 0.5rem;
+    margin: 3rem left;
+    border-radius: 3px;
+    color:white;
+    font: size 17px;
+    font-weight: bold;
+
+}
+
+
+.artwork{
+    display: grid;
+    grid-area: none;
+    padding-top: 8rem;
+
+}
+
+
+.artwork p{
+    margin: auto;
+    padding-bottom: 3rem;
+    width: 50%;
+
+}
+
+
+.quote{
+   
+    background-color: #0E1215;
+    padding: 8rem;
+    margin-left: -3rem;
+    margin-right: -3rem;
+    margin-top: 6rem;
+    
+}
+
+
+
+.quote-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.quote-content div {
+    width: 40%;
+}
+
+
+.quote p{
+    color: #FAFAFA ;
+
+}
+
+
+.quote q{
+
+    color: #FAFAFA ;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin-right: -4px;
+    font-style: italic;
+
+}
+
+
+.quote h2{
+
+    text-align: center;
+    color: white;
+}
+  
+
+.media .wrapper
+{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.media p{
+
+    width:60%;
+    text-align: center;
+    font-size: 20px ;
+    margin-top: -1.5rem;
+    
+}
+
+
+.media h2{
+
+    text-align: center;
+    width: 90%;
+    margin:3rem;
+    
+} 
+
+
+.media-images{
+
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: .5rem;
+   
+}
+
+
+/* adding padding of black, chaging color font to white and aligned the footer to the center */
+footer{
+
+    color: white;   
+    display: block;
+    text-align: center;
+    background-color: #0E1215;
+    margin: auto;
+    padding: .1rem;
+
+
+}
